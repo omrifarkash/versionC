@@ -1,0 +1,5 @@
+type dummy.SimpleObject {
+  string strField {
+  }
+  _alias = "SimpleObject"
+}

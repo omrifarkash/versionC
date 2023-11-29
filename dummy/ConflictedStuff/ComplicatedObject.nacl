@@ -1,0 +1,13 @@
+type dummy.ComplicatedObject {
+  string strField {
+  }
+  number numField {
+  }
+  "List<string>" listField {
+  }
+  string staticFileField {
+  }
+  "Map<string>" mapField {
+  }
+  _alias = "ComplicatedObject"
+}

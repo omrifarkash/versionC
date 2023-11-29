@@ -1,0 +1,14 @@
+dummy.ComplicatedObject complicatedInst {
+  strField = "c"
+  numField = 99
+  listField = [
+    "mockValue",
+    "version: c",
+  ]
+  staticFileField = file("staticFileField.txt")
+  mapField = {
+    firstValue = "firstValue"
+    versionValue = "c"
+  }
+  _alias = "complicatedInst_alias"
+}
